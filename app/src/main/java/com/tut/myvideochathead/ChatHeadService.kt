@@ -37,6 +37,9 @@ class ChatHeadService : Service() {
             private var initialTouchX = 0f
             private var initialTouchY = 0f
 
+
+
+
             override fun onTouch(v: View?, event: MotionEvent?): Boolean {
                 if(event == null) return false
                 when (event.action) {
